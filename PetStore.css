@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #0cdf05;
+    color: #fff;
+}
+
+#main {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/****************************************************** Header Box */
+header {
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; */
+    background-color: white;
+    color: black;
+    padding: 15px;
+
+}
+section {
+    padding: 50px 0px 0px;
+    text-align: center;
+}
+
+#home {
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.user {
+    background-color: #0cdf05;
+    border-radius: 20px;
+}
+
+.user input {
+    width: 30vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: .1px solid black;
+
+}
+
+.user i {
+    cursor: pointer;
+    text-align: center;
+    width: 5vw;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+li:last-child{
+    margin-right: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.activeLink {
+    color: #0cdf05 !important;
+    border-bottom: 1px solid #0cdf05;
+}
+
+#icon-box {
+    font-size: 1.4rem;
+    color: #0cdf05;
+}
+
+#icon-box i {
+    cursor: pointer;
+}
+
+.Slider-img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    left: -74px;
+}
+
+.carousel-control-next {
+    right: -74px;
+}
+
+.box {
+    left: 8%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.button:hover {
+    background-color: #0cdf05;
+    color: white;
+}
+
+/**************************************** Featured */
+
+.custom-shape-divider-top-1706539537 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1706539537 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-top-1706539537 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#featured {
+    background-color: #6dff539c;
+    padding-bottom: 20px;
+}
+
+.featured-item {
+    width: 10%;
+    min-width: 120px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.featured-item:hover {
+    background-color: #0cdf05;
+    transform: scale(1.1);
+}
+
+.featured-item img {
+    width: 100px;
+}
+
+/*********************************Product */
+#topRated-box {
+    background-color: #6dff539c;
+    margin: 5vh auto;
+    height: fit-content;
+    gap: 4vw;
+}
+
+.product {
+    min-width: 130px;
+    background-color: #fff;
+    width: 15%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.product:hover {
+    box-shadow: 3px 3px 7px rgba(99, 99, 99, 0.5), -3px -3px 7px rgba(255, 255, 255, 0.5) inset;
+    transform: scale(1.05);
+}
+
+.fa-star {
+    color: red;
+}
+
+.fa-minus,
+.fa-plus {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #0cdf05;
+    border-radius: 50%;
+}
+
+.product img {
+    width: 100%;
+}
+
+.productbtn {
+    transition: .5s;
+}
+
+.btnactive {
+    background-color: #0cdf05;
+    color: white;
+    transform: scale(1.1);
+}
+
+/************************************************ Why Choose Me Box */
+.why-heading {
+    display: inline-block;
+    width: max-content;
+    transition: .5s;
+}
+
+.why-heading:hover {
+    color: #0cdf05;
+}
+
+.why-items {
+    width: 20%;
+    min-width: 250px;
+    transition: .5s;
+}
+
+.why-items i {
+    color: #0cdf05;
+    font-size: 2rem;
+}
+
+.why-items p {
+    font-size: 1rem;
+}
+
+.brands img {
+    min-width: 80px;
+    width: 100px;
+}
+
+#about{
+    width: 100%;
+    height: 50vh;
+    background-image: url(ProductImages/_Orange\ and\ Yellow\ Professional\ Gradient\ Pet\ Fitness\ App\ Banner\ Landscape\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #0cdf05;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-shape-divider-top-1706460109 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1706460109 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-top-1706460109 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.sign {
+    width: 100%;
+}
+
+.sign h3 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.sign p {
+    font-size: .8rem;
+}
+
+.sign div:first-child {
+    border-right: 1px solid black;
+}
+
+.sign div input {
+    width: 18vw;
+}
+
+.sign div i {
+    font-size: 1rem;
+}
+
+.detail img {
+    width: 80px;
+}
+
+.detail h6 {
+    font-size: 1.5rem;
+}
+
+.detail a {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.detail a::before {
+    background-color: black;
+    content: "";
+    width: 0rem;
+    height: .2rem;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transition: 0.5s;
+}
+.detail a:hover::before{
+    width: 100%;
+}
+
+.detail i {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
